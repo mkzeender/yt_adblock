@@ -1,0 +1,13 @@
+{
+  "name": "Yt Adblock",
+  "description": "Blocks Youtube Ads",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["checker.js"]
+    }
+  ],
+  "permissions": []
+}
