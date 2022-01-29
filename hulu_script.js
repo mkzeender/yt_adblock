@@ -21,7 +21,10 @@ function checkYtAd() {
 
 
 function skip_ad() {
-	document.getElementsByTagName('video')[1].playbackRate = 10
+	let video = document.getElementsByTagName('video')[1]
+	if (video) {
+		video.playbackRate = 10
+	}
 }
 
 setInterval(skip_ad, 200)
