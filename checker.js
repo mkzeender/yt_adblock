@@ -3,7 +3,7 @@ function checkYtAd() {
 	let lst = document.getElementsByClassName("video-stream")
 
 	if (document.getElementsByClassName("ytp-ad-player-overlay")[0]) {
-		lst[0].playbackRate = 10
+		lst[0].playbackRate = 16
 
 		skipbtn = document.getElementsByClassName("ytp-ad-skip-button-text")[0]
 		if (skipbtn) {
@@ -18,4 +18,4 @@ function checkYtAd() {
 	}
 }
 
-setInterval(checkYtAd, 500)
+setInterval(checkYtAd, 200)
