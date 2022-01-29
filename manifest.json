@@ -7,6 +7,10 @@
     {
       "matches": ["https://*.youtube.com/*"],
       "js": ["checker.js"]
+    },
+    {
+      "matches": ["https://*.hulu.com/*"],
+      "js": ["hulu_script.js"]
     }
   ],
   "permissions": []
