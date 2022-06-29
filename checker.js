@@ -9,7 +9,7 @@ function checkYtAd() {
 		if (skipbtn) {
 			skipbtn.click()
 		}
-	} else {
+	} else if (lst) {
 		lst[0].playbackRate = 1
 	}
 	let xbutton = document.getElementsByClassName("ytp-ad-overlay-close-button")[0]
